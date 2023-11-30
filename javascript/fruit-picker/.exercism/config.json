@@ -1,24 +1,26 @@
 {
   "authors": [
-    "kristinaborn"
+    "neenjaw"
   ],
   "contributors": [
-    "SleeplessByte",
-    "angelikatyborska"
+    "SleeplessByte"
   ],
   "files": {
     "solution": [
-      "enchantments.js"
+      "fruit-picker.js"
     ],
     "test": [
-      "enchantments.spec.js"
+      "fruit-picker.spec.js"
     ],
     "exemplar": [
       ".meta/exemplar.js"
+    ],
+    "editor": [
+      "notifier.js",
+      "grocer.js"
     ]
   },
-  "icon": "elyses-enchantments",
-  "blurb": "Elyse's magic training continues, teaching you about array destructing and the rest/spread operator.",
+  "blurb": "Learn about callbacks ordering fruit from the grocer",
   "custom": {
     "version.tests.compatibility": "jest-27",
     "flag.tests.task-per-describe": true,
